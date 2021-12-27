@@ -3,6 +3,7 @@ from cat import Cat
 
 def check_cat(elem, item):
     if elem[item]['code'] == 'cat':
+	
         return True
 
 with open('f.json', encoding='utf8') as file:
